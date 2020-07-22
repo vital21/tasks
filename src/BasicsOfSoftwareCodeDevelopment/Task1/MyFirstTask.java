@@ -1,4 +1,4 @@
-package com.company;
+package BasicsOfSoftwareCodeDevelopment.Task1;
 import java.util.Scanner;
 public class MyFirstTask {
 
