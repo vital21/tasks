@@ -14,7 +14,7 @@ public class MyFirstTask {
             b=num.nextInt();
             System.out.println("Enter c");
             c=num.nextInt();
-            z=((a-3)*b/2)+c;
+            z=((a-3)*b/2)+c;//тут происходит деление, а ответ получается целым, нужно исправить!
             System.out.println("rezults is:"+z);
         }
 
