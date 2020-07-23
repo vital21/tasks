@@ -18,6 +18,7 @@ public class MyThirdTask {
         if (y <= 0 && y >= (-3) && x >= -4 && x <= 4) {
             test = true;
         }
+        //ввожу x = -3 и y = -4 возвращает false
         System.out.println(test);
     }
 }

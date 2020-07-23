@@ -8,6 +8,8 @@ public class MySecondTask {
 
         System.out.println("Enter a");
         a=num.nextFloat();
+        //Если вводишь значение а = 0, то программа выдает Infinity
+        //Если вводишь занчение а = -100, b=2 c = 3, программа выдает NaN
         System.out.println("Enter b");
         b=num.nextFloat();
         System.out.println("Enter c");
