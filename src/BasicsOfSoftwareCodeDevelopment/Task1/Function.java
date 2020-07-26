@@ -2,10 +2,10 @@ package BasicsOfSoftwareCodeDevelopment.Task1;
 import java.util.Scanner;
 public class Function {
     public static void main(String[] args){
-        Scanner num=new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
         double x=0,k=0;
         System.out.println("Enter x");
-        x=num.nextFloat();
+        x=scanner.nextFloat();
         if(x<=3){
             k=Math.pow(x,2)-3*x+9;
         }
