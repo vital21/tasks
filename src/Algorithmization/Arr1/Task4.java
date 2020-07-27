@@ -1,16 +1,21 @@
 package Algorithmization.Arr1;
 import java.util.Scanner;
+import java.util.Random;
 public class Task4 {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
+        Random random=new Random();
         int[] arr;
         int n,k=0,l=0;
-        System.out.println("Enter n ");
-        n=scanner.nextInt();
+        System.out.println("Size array is n ");
+        n=random.nextInt(10)+1;
         arr=new int[n];
+        System.out.println(n+" : =n");
         for(int i=0; i<n;i++){
-            arr[i]=scanner.nextInt();
+            arr[i]=random.nextInt(9);
+            System.out.print(arr[i]);
         }
+        System.out.println();
         for(int i =0;i<n;i++){
           if(k<arr[i]){
               k=arr[i];
@@ -30,12 +35,22 @@ public class Task4 {
             else if(arr[i]==l){
                 arr[i]=k;
             }
-            System.out.println(arr[i]);
+
+
         }
-        System.out.println(k+" : "+l);
+        System.out.println();
+        System.out.println("MAX: "+k+" : "+l+" :MIN");
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]);
+
+        }
             }
 
         }
+//Рандом я сделал, но диапозон большой не ставил,  результата не видно хорошо вот:
+
+
+
 //Во первых реализуй генерацию массива
 // что бы я вводил количество и оно само генерировалось в диапозоне от 1 до 100, а то если я введу количество 100
 // то я устану вводить, так же больше пользовательского интерфейса добовляй
