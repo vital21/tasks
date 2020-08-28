@@ -40,7 +40,7 @@ public class Task10 {
         System.out.print("Answer is : ");
    for(int i=0;i< size;i++){
     System.out.print(arr[i]);
-
+       System.out.println("Виталик пидарас!!! ХАХАХАХ");
      }
     }
 }
